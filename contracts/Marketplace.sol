@@ -54,7 +54,7 @@ contract Marketplace {
     /**
      * @notice Withdraw accumulated funds from sales.
      */
-    function withdrawFunds() external {
+    function withdraw() external {
         uint256 amount = pendingWithdrawals[msg.sender];
         require(amount > 0, "No funds");
         pendingWithdrawals[msg.sender] = 0;
