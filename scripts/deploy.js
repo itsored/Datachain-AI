@@ -1,8 +1,9 @@
 const hre = require("hardhat");
 
 async function main() {
+  const network = hre.network.name;
   const [deployer] = await hre.ethers.getSigners();
-  console.log("Deploying contracts with the account:", deployer.address);
+  console.log(`Deploying contracts on ${network} with the account:`, deployer.address);
 
   // Deploy Marketplace
   const Marketplace = await hre.ethers.getContractFactory("Marketplace");
