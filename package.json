@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx hardhat test",
+    "fork:node": "HARDHAT_FORK=true npx hardhat node --hostname 127.0.0.1",
+    "deploy:local": "npx hardhat run scripts/deploy.js --network localhost",
+    "seed:priority": "SEED_SOURCE=priority SEED_LIMIT=50 npx hardhat run scripts/seedCatalog.js --network localhost",
+    "seed:approved": "SEED_SOURCE=approved SEED_LIMIT=151 npx hardhat run scripts/seedCatalog.js --network localhost",
+    "sync:frontend-env": "node scripts/syncFrontendEnv.js localhost",
+    "smoke:local": "node scripts/smokeTestPilot.js"
   },
   "keywords": [],
   "author": "",
