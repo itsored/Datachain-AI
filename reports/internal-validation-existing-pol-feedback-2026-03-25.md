@@ -1,8 +1,5 @@
 # Internal Validation Feedback
 
-Date: 2026-03-25
-Network: Polygon
-Scope: Existing POL internal validation wave
 
 ## Feedback Summary
 
