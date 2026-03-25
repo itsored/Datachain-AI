@@ -1,0 +1,602 @@
+{
+  "funding_type": "internal_validation",
+  "started_at": "2026-03-25T18:12:20.262Z",
+  "finished_at": "2026-03-25T18:15:21.228Z",
+  "dry_run": false,
+  "network": "polygon",
+  "plan_file": "/Users/vicgunga/Gunga/DataChain/Datachain-AI/reports/internal-validation-existing-pol-plan-2026-03-25.json",
+  "wallet_file": "/Users/vicgunga/Gunga/DataChain/Datachain-AI/deployments/polygon-curated-provider-wallets.json",
+  "owner_address": "0xDd7f982e25006541dA9cE25ade452013884A844c",
+  "fee_overrides": {
+    "type": "2",
+    "maxPriorityFeePerGas": "55731481715",
+    "maxFeePerGas": "255652758947"
+  },
+  "summary": {
+    "wallets": 26,
+    "pol_topups": 26,
+    "dcusdc_mints": 0,
+    "total_pol_to_send": "0.757386214648729792",
+    "total_dcusdc_to_mint": "0.0",
+    "successful": 26,
+    "failed": 0
+  },
+  "entries": [
+    {
+      "index": 1,
+      "role": "seller",
+      "label": "existing-pol-seller-1",
+      "address": "0x279F5822d01D81F1d23903623f03fd8fb3F65e1d",
+      "current_pol": "0.029796869485928763",
+      "target_pol": "0.08",
+      "pol_to_send": "0.050203130514071237",
+      "current_dcusdc": "13.0",
+      "target_dcusdc": null,
+      "dcusdc_to_mint": "0.0",
+      "operations": [
+        {
+          "type": "pol_topup",
+          "status": "confirmed",
+          "amount": "0.050203130514071237",
+          "tx_hash": "0xb14e4472af07d498c36f13af8c3e13022e79481d41ea5943f06f1117e0aec27e",
+          "block_number": 84671155
+        }
+      ],
+      "status": "confirmed"
+    },
+    {
+      "index": 2,
+      "role": "seller",
+      "label": "existing-pol-seller-2",
+      "address": "0xf09dDe843E97d6BcE8b721E3FeB12C4891Bc03b5",
+      "current_pol": "0.024996046149696618",
+      "target_pol": "0.08",
+      "pol_to_send": "0.055003953850303382",
+      "current_dcusdc": "16.0",
+      "target_dcusdc": null,
+      "dcusdc_to_mint": "0.0",
+      "operations": [
+        {
+          "type": "pol_topup",
+          "status": "confirmed",
+          "amount": "0.055003953850303382",
+          "tx_hash": "0x7e02ea7893b9648adc9242817dc360683fed848310856688d84e1b43ef226124",
+          "block_number": 84671158
+        }
+      ],
+      "status": "confirmed"
+    },
+    {
+      "index": 3,
+      "role": "seller",
+      "label": "existing-pol-seller-3",
+      "address": "0xBf950cc1B790F7cF7B6388EE36d76F507113B1D6",
+      "current_pol": "0.03212409516087443",
+      "target_pol": "0.08",
+      "pol_to_send": "0.04787590483912557",
+      "current_dcusdc": "1039.0",
+      "target_dcusdc": null,
+      "dcusdc_to_mint": "0.0",
+      "operations": [
+        {
+          "type": "pol_topup",
+          "status": "confirmed",
+          "amount": "0.04787590483912557",
+          "tx_hash": "0x3da2c3ae017360d05da94deeae10bc9f2966a8c047425251bdbb13fc874ee9e4",
+          "block_number": 84671162
+        }
+      ],
+      "status": "confirmed"
+    },
+    {
+      "index": 4,
+      "role": "seller",
+      "label": "existing-pol-seller-4",
+      "address": "0xaeC92AAf5F89FF226CB3a8259B0DA83E29eDAf0F",
+      "current_pol": "0.04442229763655181",
+      "target_pol": "0.08",
+      "pol_to_send": "0.03557770236344819",
+      "current_dcusdc": "908.0",
+      "target_dcusdc": null,
+      "dcusdc_to_mint": "0.0",
+      "operations": [
+        {
+          "type": "pol_topup",
+          "status": "confirmed",
+          "amount": "0.03557770236344819",
+          "tx_hash": "0x12cec8408b18a0671ec7838e48d7321ac5720116c367f9d73205d49959e7648a",
+          "block_number": 84671165
+        }
+      ],
+      "status": "confirmed"
+    },
+    {
+      "index": 7,
+      "role": "seller",
+      "label": "existing-pol-seller-7",
+      "address": "0x2Db0E3aC63f8Ef6B863d111B1645e48cb160bA48",
+      "current_pol": "0.067730430328468256",
+      "target_pol": "0.08",
+      "pol_to_send": "0.012269569671531744",
+      "current_dcusdc": "6.0",
+      "target_dcusdc": null,
+      "dcusdc_to_mint": "0.0",
+      "operations": [
+        {
+          "type": "pol_topup",
+          "status": "confirmed",
+          "amount": "0.012269569671531744",
+          "tx_hash": "0x983e1bce62e0950dbe464dd87e324ca568828b99f22582af92488b4a5df31347",
+          "block_number": 84671169
+        }
+      ],
+      "status": "confirmed"
+    },
+    {
+      "index": 9,
+      "role": "seller",
+      "label": "existing-pol-seller-9",
+      "address": "0x230f86AB5ca38d1265Bf7b25c782948965A9C160",
+      "current_pol": "0.06289511124663734",
+      "target_pol": "0.08",
+      "pol_to_send": "0.01710488875336266",
+      "current_dcusdc": "3.0",
+      "target_dcusdc": null,
+      "dcusdc_to_mint": "0.0",
+      "operations": [
+        {
+          "type": "pol_topup",
+          "status": "confirmed",
+          "amount": "0.01710488875336266",
+          "tx_hash": "0x034a927d22ea0890daeb1abc9cd57729b4fe2c4d3ad67f2f2b7df8a5830f183d",
+          "block_number": 84671172
+        }
+      ],
+      "status": "confirmed"
+    },
+    {
+      "index": 12,
+      "role": "seller",
+      "label": "existing-pol-seller-12",
+      "address": "0x8B71FE5B79Ca318100b000Ce221ebE9CA3831a8e",
+      "current_pol": "0.035518441725423188",
+      "target_pol": "0.08",
+      "pol_to_send": "0.044481558274576812",
+      "current_dcusdc": "3.0",
+      "target_dcusdc": null,
+      "dcusdc_to_mint": "0.0",
+      "operations": [
+        {
+          "type": "pol_topup",
+          "status": "confirmed",
+          "amount": "0.044481558274576812",
+          "tx_hash": "0x822aa2ab7e4f987c610d54cfa4e57df374ef0155dcee7b36628a18c97dc9cb64",
+          "block_number": 84671175
+        }
+      ],
+      "status": "confirmed"
+    },
+    {
+      "index": 13,
+      "role": "seller",
+      "label": "existing-pol-seller-13",
+      "address": "0x8c1ca83248dE47c6D867DA7270cBE715789e2b4F",
+      "current_pol": "0.023332475105999987",
+      "target_pol": "0.08",
+      "pol_to_send": "0.056667524894000013",
+      "current_dcusdc": "20.0",
+      "target_dcusdc": null,
+      "dcusdc_to_mint": "0.0",
+      "operations": [
+        {
+          "type": "pol_topup",
+          "status": "confirmed",
+          "amount": "0.056667524894000013",
+          "tx_hash": "0x428b366dce32452c68aed4e9d4839fc2d6faca5bc9f5900fe7a25d5de0d7944d",
+          "block_number": 84671179
+        }
+      ],
+      "status": "confirmed"
+    },
+    {
+      "index": 14,
+      "role": "seller",
+      "label": "existing-pol-seller-14",
+      "address": "0xd9aF45b1872073526f7d1D333D5aA64908F99C68",
+      "current_pol": "0.050806264875393442",
+      "target_pol": "0.08",
+      "pol_to_send": "0.029193735124606558",
+      "current_dcusdc": "4.0",
+      "target_dcusdc": null,
+      "dcusdc_to_mint": "0.0",
+      "operations": [
+        {
+          "type": "pol_topup",
+          "status": "confirmed",
+          "amount": "0.029193735124606558",
+          "tx_hash": "0x49f5ef510fc62978a145a75d375ad18919a01f657a9d76e1ea72349b7c115f8a",
+          "block_number": 84671183
+        }
+      ],
+      "status": "confirmed"
+    },
+    {
+      "index": 15,
+      "role": "seller",
+      "label": "existing-pol-seller-15",
+      "address": "0x86C45138C10388cE059A75899448Fe686B0DD24b",
+      "current_pol": "0.04215984522337094",
+      "target_pol": "0.08",
+      "pol_to_send": "0.03784015477662906",
+      "current_dcusdc": "32.0",
+      "target_dcusdc": null,
+      "dcusdc_to_mint": "0.0",
+      "operations": [
+        {
+          "type": "pol_topup",
+          "status": "confirmed",
+          "amount": "0.03784015477662906",
+          "tx_hash": "0x9a67b1cdff6e7b0a47a3cb49f0a770fd45210a7be5460df5c62479037ff333c1",
+          "block_number": 84671186
+        }
+      ],
+      "status": "confirmed"
+    },
+    {
+      "index": 16,
+      "role": "seller",
+      "label": "existing-pol-seller-16",
+      "address": "0x334Cb71A97C4822b4FaF42F8A76c7E9766f01EfC",
+      "current_pol": "0.062882288743357976",
+      "target_pol": "0.08",
+      "pol_to_send": "0.017117711256642024",
+      "current_dcusdc": "6.0",
+      "target_dcusdc": null,
+      "dcusdc_to_mint": "0.0",
+      "operations": [
+        {
+          "type": "pol_topup",
+          "status": "confirmed",
+          "amount": "0.017117711256642024",
+          "tx_hash": "0xb8c37688a5bf4bf21e42a5ac11ec26eca4f4ae7aa2f8ee9167d4e6957e79ebc0",
+          "block_number": 84671190
+        }
+      ],
+      "status": "confirmed"
+    },
+    {
+      "index": 18,
+      "role": "seller",
+      "label": "existing-pol-seller-18",
+      "address": "0x066538Fd845BfFE2693118F9ae0Befa3a71385f6",
+      "current_pol": "0.068040930233981006",
+      "target_pol": "0.08",
+      "pol_to_send": "0.011959069766018994",
+      "current_dcusdc": "23.0",
+      "target_dcusdc": null,
+      "dcusdc_to_mint": "0.0",
+      "operations": [
+        {
+          "type": "pol_topup",
+          "status": "confirmed",
+          "amount": "0.011959069766018994",
+          "tx_hash": "0xad3b07c73b63ebbed33dda29cf3c30a55ee629a282ac500745b46bfd7ddccd20",
+          "block_number": 84671193
+        }
+      ],
+      "status": "confirmed"
+    },
+    {
+      "index": 19,
+      "role": "seller",
+      "label": "existing-pol-seller-19",
+      "address": "0xaFB59998A4D536327a1Cf83bd71C13d6c37c0316",
+      "current_pol": "0.072989387264978684",
+      "target_pol": "0.08",
+      "pol_to_send": "0.007010612735021316",
+      "current_dcusdc": "7.0",
+      "target_dcusdc": null,
+      "dcusdc_to_mint": "0.0",
+      "operations": [
+        {
+          "type": "pol_topup",
+          "status": "confirmed",
+          "amount": "0.007010612735021316",
+          "tx_hash": "0x3a7dba44befbefdf566bf80e767f2471623d26e30dfa5da33ff9d8d06c5047b8",
+          "block_number": 84671197
+        }
+      ],
+      "status": "confirmed"
+    },
+    {
+      "index": 22,
+      "role": "buyer",
+      "label": "existing-pol-buyer-22",
+      "address": "0x93a86477892369575554bA7a50670f6f19def169",
+      "current_pol": "0.039639311044707841",
+      "target_pol": "0.07",
+      "pol_to_send": "0.030360688955292159",
+      "current_dcusdc": "49.0",
+      "target_dcusdc": null,
+      "dcusdc_to_mint": "0.0",
+      "operations": [
+        {
+          "type": "pol_topup",
+          "status": "confirmed",
+          "amount": "0.030360688955292159",
+          "tx_hash": "0xd93247e91c210d6b695609f72328c46779aa419eba175389767ed292be9f98fc",
+          "block_number": 84671200
+        }
+      ],
+      "status": "confirmed"
+    },
+    {
+      "index": 23,
+      "role": "buyer",
+      "label": "existing-pol-buyer-23",
+      "address": "0x83FF52e10967377F0F98b5FE0645aE334b9C5aef",
+      "current_pol": "0.046373550802244548",
+      "target_pol": "0.07",
+      "pol_to_send": "0.023626449197755452",
+      "current_dcusdc": "60.0",
+      "target_dcusdc": null,
+      "dcusdc_to_mint": "0.0",
+      "operations": [
+        {
+          "type": "pol_topup",
+          "status": "confirmed",
+          "amount": "0.023626449197755452",
+          "tx_hash": "0x9992f08aca06e630685dfd77f4190d477ac471454769f4eda61f878f00d7c4e8",
+          "block_number": 84671203
+        }
+      ],
+      "status": "confirmed"
+    },
+    {
+      "index": 24,
+      "role": "buyer",
+      "label": "existing-pol-buyer-24",
+      "address": "0xbA4E0b4fb33Eb3A2638d1E0fBC247F31D5042c9d",
+      "current_pol": "0.047885557344450212",
+      "target_pol": "0.07",
+      "pol_to_send": "0.022114442655549788",
+      "current_dcusdc": "59.0",
+      "target_dcusdc": null,
+      "dcusdc_to_mint": "0.0",
+      "operations": [
+        {
+          "type": "pol_topup",
+          "status": "confirmed",
+          "amount": "0.022114442655549788",
+          "tx_hash": "0x6f05c3c7115c4fae083d7ccd8ee90d28ff08f3a2da7e66882e42334fa5dd6def",
+          "block_number": 84671207
+        }
+      ],
+      "status": "confirmed"
+    },
+    {
+      "index": 25,
+      "role": "buyer",
+      "label": "existing-pol-buyer-25",
+      "address": "0xB2eE7750852Ff98435eFBB211C4a94F921092c4c",
+      "current_pol": "0.037975303018152989",
+      "target_pol": "0.07",
+      "pol_to_send": "0.032024696981847011",
+      "current_dcusdc": "44.0",
+      "target_dcusdc": null,
+      "dcusdc_to_mint": "0.0",
+      "operations": [
+        {
+          "type": "pol_topup",
+          "status": "confirmed",
+          "amount": "0.032024696981847011",
+          "tx_hash": "0x3c346848d1c381dee5294b91bd8d9955006407bcfa92527ca89baa5885c3ebbd",
+          "block_number": 84671210
+        }
+      ],
+      "status": "confirmed"
+    },
+    {
+      "index": 26,
+      "role": "buyer",
+      "label": "existing-pol-buyer-26",
+      "address": "0x86ec299D9B9C499C6312E77638E07526D695603d",
+      "current_pol": "0.045933787218407758",
+      "target_pol": "0.07",
+      "pol_to_send": "0.024066212781592242",
+      "current_dcusdc": "48.0",
+      "target_dcusdc": null,
+      "dcusdc_to_mint": "0.0",
+      "operations": [
+        {
+          "type": "pol_topup",
+          "status": "confirmed",
+          "amount": "0.024066212781592242",
+          "tx_hash": "0x716f9954685d8e534d8ace574086ca8af02e7ac6563c9c57bd58b425f78ea81b",
+          "block_number": 84671214
+        }
+      ],
+      "status": "confirmed"
+    },
+    {
+      "index": 27,
+      "role": "buyer",
+      "label": "existing-pol-buyer-27",
+      "address": "0x1E60aFcD871A73FCE0dc010638E811Cbe9aA0A61",
+      "current_pol": "0.04025391038744635",
+      "target_pol": "0.07",
+      "pol_to_send": "0.02974608961255365",
+      "current_dcusdc": "47.0",
+      "target_dcusdc": null,
+      "dcusdc_to_mint": "0.0",
+      "operations": [
+        {
+          "type": "pol_topup",
+          "status": "confirmed",
+          "amount": "0.02974608961255365",
+          "tx_hash": "0xcba49807c29df59cf7eed2b9ec3f64330cc409a45785cc46ba2fe2f28e7b91b8",
+          "block_number": 84671217
+        }
+      ],
+      "status": "confirmed"
+    },
+    {
+      "index": 28,
+      "role": "buyer",
+      "label": "existing-pol-buyer-28",
+      "address": "0x758fE211864b1F7aE300C24dabF3378Eb7F00352",
+      "current_pol": "0.037838688492311216",
+      "target_pol": "0.07",
+      "pol_to_send": "0.032161311507688784",
+      "current_dcusdc": "73.0",
+      "target_dcusdc": null,
+      "dcusdc_to_mint": "0.0",
+      "operations": [
+        {
+          "type": "pol_topup",
+          "status": "confirmed",
+          "amount": "0.032161311507688784",
+          "tx_hash": "0x3ed7a14af3461277298d99afbc74fbdf54b8eae7dc761c992c8d1eb40e119b2d",
+          "block_number": 84671221
+        }
+      ],
+      "status": "confirmed"
+    },
+    {
+      "index": 31,
+      "role": "buyer",
+      "label": "existing-pol-buyer-31",
+      "address": "0xB0Ae9b9A0e3c48ef5C9177290bE6a657b46f3305",
+      "current_pol": "0.038968295160317634",
+      "target_pol": "0.07",
+      "pol_to_send": "0.031031704839682366",
+      "current_dcusdc": "53.0",
+      "target_dcusdc": null,
+      "dcusdc_to_mint": "0.0",
+      "operations": [
+        {
+          "type": "pol_topup",
+          "status": "confirmed",
+          "amount": "0.031031704839682366",
+          "tx_hash": "0x568778aeb9443ae65ece79cab3e2665fb6a49380c89300b9142c30d05816325a",
+          "block_number": 84671224
+        }
+      ],
+      "status": "confirmed"
+    },
+    {
+      "index": 33,
+      "role": "buyer",
+      "label": "existing-pol-buyer-33",
+      "address": "0x5fe12B953Ee9bCB4DCA728Ddbf0094e28380c7cf",
+      "current_pol": "0.059876381464756358",
+      "target_pol": "0.07",
+      "pol_to_send": "0.010123618535243642",
+      "current_dcusdc": "51.0",
+      "target_dcusdc": null,
+      "dcusdc_to_mint": "0.0",
+      "operations": [
+        {
+          "type": "pol_topup",
+          "status": "confirmed",
+          "amount": "0.010123618535243642",
+          "tx_hash": "0xce0b71b5e29fd71597b23a6301a3cf512f857a37f73f4f7d9531e992bd1e3027",
+          "block_number": 84671228
+        }
+      ],
+      "status": "confirmed"
+    },
+    {
+      "index": 35,
+      "role": "buyer",
+      "label": "existing-pol-buyer-35",
+      "address": "0x90A43E0dEa5DEb21413e53A0A4E290E7aa009163",
+      "current_pol": "0.042198456752663758",
+      "target_pol": "0.07",
+      "pol_to_send": "0.027801543247336242",
+      "current_dcusdc": "51.0",
+      "target_dcusdc": null,
+      "dcusdc_to_mint": "0.0",
+      "operations": [
+        {
+          "type": "pol_topup",
+          "status": "confirmed",
+          "amount": "0.027801543247336242",
+          "tx_hash": "0x86befc69eaa65ee652b776014cd479505798174eb9a11aa7e5e0e4c3e0a6620b",
+          "block_number": 84671231
+        }
+      ],
+      "status": "confirmed"
+    },
+    {
+      "index": 36,
+      "role": "buyer",
+      "label": "existing-pol-buyer-36",
+      "address": "0x3EeE770a5B87A22B6CB59565DAd7FE40556b754f",
+      "current_pol": "0.046102283053914444",
+      "target_pol": "0.07",
+      "pol_to_send": "0.023897716946085556",
+      "current_dcusdc": "56.0",
+      "target_dcusdc": null,
+      "dcusdc_to_mint": "0.0",
+      "operations": [
+        {
+          "type": "pol_topup",
+          "status": "confirmed",
+          "amount": "0.023897716946085556",
+          "tx_hash": "0x2496c3a0c0db5b71b7e9b03e2649e10aa0a0729738333dcc6bfec7ff2d31fd4e",
+          "block_number": 84671234
+        }
+      ],
+      "status": "confirmed"
+    },
+    {
+      "index": 38,
+      "role": "buyer",
+      "label": "existing-pol-buyer-38",
+      "address": "0xC853a84075D90dFCe2456feede4F457c25A88e2f",
+      "current_pol": "0.050166681938244383",
+      "target_pol": "0.07",
+      "pol_to_send": "0.019833318061755617",
+      "current_dcusdc": "46.0",
+      "target_dcusdc": null,
+      "dcusdc_to_mint": "0.0",
+      "operations": [
+        {
+          "type": "pol_topup",
+          "status": "confirmed",
+          "amount": "0.019833318061755617",
+          "tx_hash": "0x557e5067c03009a65c8816a4cbe7aa397cf0a6422e99692e53d4a11c0152bbee",
+          "block_number": 84671238
+        }
+      ],
+      "status": "confirmed"
+    },
+    {
+      "index": 39,
+      "role": "buyer",
+      "label": "existing-pol-buyer-39",
+      "address": "0x8c68D1e734B5d37465Ad6178E939F1e88640EBc8",
+      "current_pol": "0.041707095492990277",
+      "target_pol": "0.07",
+      "pol_to_send": "0.028292904507009723",
+      "current_dcusdc": "64.0",
+      "target_dcusdc": null,
+      "dcusdc_to_mint": "0.0",
+      "operations": [
+        {
+          "type": "pol_topup",
+          "status": "confirmed",
+          "amount": "0.028292904507009723",
+          "tx_hash": "0xd4eb7d59bd8e704af7d37a3f0418e792f35e64d9c1ce829cf6fd992be45b24db",
+          "block_number": 84671242
+        }
+      ],
+      "status": "confirmed"
+    }
+  ],
+  "owner_balances": {
+    "initial_pol": "1.178287154521916929",
+    "initial_dcusdc": "999995.0"
+  }
+}

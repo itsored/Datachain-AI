@@ -1,0 +1,272 @@
+{
+  "name": "internal-validation-existing-pol-2026-03-25",
+  "disclaimer": "Internal validation traffic only. Do not represent this activity as third-party or organic external usage.",
+  "network": "polygon",
+  "wallet_file": "deployments/polygon-curated-provider-wallets.json",
+  "target_summary": {
+    "marketplace_reputation_target": 255,
+    "seller_target": 170,
+    "buyer_target": 85
+  },
+  "notes": [
+    "Use currently funded wallets first instead of spreading gas across wallets 41-150.",
+    "Buyer wallets 21-40 already hold enough dcUSDC for the planned purchase mix, so this execution plan only tops up POL.",
+    "The optional token-mint padding from the markdown runbook is intentionally omitted here to keep the run focused on meaningful marketplace and reputation-side traffic."
+  ],
+  "funding": [
+    {
+      "index": 1,
+      "role": "seller",
+      "label": "existing-pol-seller-1",
+      "target_pol": "0.08"
+    },
+    {
+      "index": 2,
+      "role": "seller",
+      "label": "existing-pol-seller-2",
+      "target_pol": "0.08"
+    },
+    {
+      "index": 3,
+      "role": "seller",
+      "label": "existing-pol-seller-3",
+      "target_pol": "0.08"
+    },
+    {
+      "index": 4,
+      "role": "seller",
+      "label": "existing-pol-seller-4",
+      "target_pol": "0.08"
+    },
+    {
+      "index": 7,
+      "role": "seller",
+      "label": "existing-pol-seller-7",
+      "target_pol": "0.08"
+    },
+    {
+      "index": 9,
+      "role": "seller",
+      "label": "existing-pol-seller-9",
+      "target_pol": "0.08"
+    },
+    {
+      "index": 12,
+      "role": "seller",
+      "label": "existing-pol-seller-12",
+      "target_pol": "0.08"
+    },
+    {
+      "index": 13,
+      "role": "seller",
+      "label": "existing-pol-seller-13",
+      "target_pol": "0.08"
+    },
+    {
+      "index": 14,
+      "role": "seller",
+      "label": "existing-pol-seller-14",
+      "target_pol": "0.08"
+    },
+    {
+      "index": 15,
+      "role": "seller",
+      "label": "existing-pol-seller-15",
+      "target_pol": "0.08"
+    },
+    {
+      "index": 16,
+      "role": "seller",
+      "label": "existing-pol-seller-16",
+      "target_pol": "0.08"
+    },
+    {
+      "index": 18,
+      "role": "seller",
+      "label": "existing-pol-seller-18",
+      "target_pol": "0.08"
+    },
+    {
+      "index": 19,
+      "role": "seller",
+      "label": "existing-pol-seller-19",
+      "target_pol": "0.08"
+    },
+    {
+      "index": 22,
+      "role": "buyer",
+      "label": "existing-pol-buyer-22",
+      "target_pol": "0.07"
+    },
+    {
+      "index": 23,
+      "role": "buyer",
+      "label": "existing-pol-buyer-23",
+      "target_pol": "0.07"
+    },
+    {
+      "index": 24,
+      "role": "buyer",
+      "label": "existing-pol-buyer-24",
+      "target_pol": "0.07"
+    },
+    {
+      "index": 25,
+      "role": "buyer",
+      "label": "existing-pol-buyer-25",
+      "target_pol": "0.07"
+    },
+    {
+      "index": 26,
+      "role": "buyer",
+      "label": "existing-pol-buyer-26",
+      "target_pol": "0.07"
+    },
+    {
+      "index": 27,
+      "role": "buyer",
+      "label": "existing-pol-buyer-27",
+      "target_pol": "0.07"
+    },
+    {
+      "index": 28,
+      "role": "buyer",
+      "label": "existing-pol-buyer-28",
+      "target_pol": "0.07"
+    },
+    {
+      "index": 31,
+      "role": "buyer",
+      "label": "existing-pol-buyer-31",
+      "target_pol": "0.07"
+    },
+    {
+      "index": 33,
+      "role": "buyer",
+      "label": "existing-pol-buyer-33",
+      "target_pol": "0.07"
+    },
+    {
+      "index": 35,
+      "role": "buyer",
+      "label": "existing-pol-buyer-35",
+      "target_pol": "0.07"
+    },
+    {
+      "index": 36,
+      "role": "buyer",
+      "label": "existing-pol-buyer-36",
+      "target_pol": "0.07"
+    },
+    {
+      "index": 38,
+      "role": "buyer",
+      "label": "existing-pol-buyer-38",
+      "target_pol": "0.07"
+    },
+    {
+      "index": 39,
+      "role": "buyer",
+      "label": "existing-pol-buyer-39",
+      "target_pol": "0.07"
+    }
+  ],
+  "runner_profiles": {
+    "sellers_a": {
+      "wallet_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "duration_hours": 6,
+      "min_delay_seconds": 8,
+      "max_delay_seconds": 18,
+      "max_actions": 95,
+      "action_types": [
+        "withdraw",
+        "update-price",
+        "toggle-active"
+      ],
+      "action_weights": "withdraw:1,update-price:8,toggle-active:1"
+    },
+    "sellers_b": {
+      "wallet_indices": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "duration_hours": 6,
+      "min_delay_seconds": 8,
+      "max_delay_seconds": 18,
+      "max_actions": 75,
+      "action_types": [
+        "withdraw",
+        "update-price",
+        "toggle-active"
+      ],
+      "action_weights": "withdraw:1,update-price:8,toggle-active:1"
+    },
+    "buyers_a": {
+      "wallet_indices": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "duration_hours": 6,
+      "min_delay_seconds": 12,
+      "max_delay_seconds": 24,
+      "max_actions": 43,
+      "action_types": [
+        "approve",
+        "purchase"
+      ],
+      "action_weights": "approve:1,purchase:12",
+      "target_allowance": "80"
+    },
+    "buyers_b": {
+      "wallet_indices": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "duration_hours": 6,
+      "min_delay_seconds": 12,
+      "max_delay_seconds": 24,
+      "max_actions": 42,
+      "action_types": [
+        "approve",
+        "purchase"
+      ],
+      "action_weights": "approve:1,purchase:12",
+      "target_allowance": "80"
+    }
+  }
+}
