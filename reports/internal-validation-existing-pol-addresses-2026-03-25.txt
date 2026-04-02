@@ -1,8 +1,5 @@
-Internal validation wallet classification as of 2026-04-02.
+Wallet classification.
 
-Scan basis: Polygon mainnet blocks 84050972 through 85001148 for direct external transactions to the live Marketplace, dcUSDC, Reputation, and Incentives contracts.
-
-Classification rule: wallets with one or more observed `Marketplace.listDataset` calls are classified as `Data Provider`. All remaining wallets in this report are classified as `AI Developer` wallets in need of datasets.
 
 Summary:
 - Source addresses reviewed: 76
